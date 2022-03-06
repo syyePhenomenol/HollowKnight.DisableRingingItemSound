@@ -1,0 +1,96 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+	<DoNotCopyLocalIfInGac>true</DoNotCopyLocalIfInGac>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>H:\Programs\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <CopyLocal>False</CopyLocal>
+    </Reference>
+    <Reference Include="MMHOOK_Assembly-CSharp">
+      <HintPath>H:\Programs\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\MMHOOK_Assembly-CSharp.dll</HintPath>
+      <CopyLocal>False</CopyLocal>
+    </Reference>
+    <Reference Include="MMHOOK_PlayMaker">
+      <HintPath>H:\Programs\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\MMHOOK_PlayMaker.dll</HintPath>
+      <CopyLocal>False</CopyLocal>
+    </Reference>
+    <Reference Include="PlayMaker">
+      <HintPath>H:\Programs\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\PlayMaker.dll</HintPath>
+      <CopyLocal>False</CopyLocal>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>H:\Programs\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\UnityEngine.dll</HintPath>
+      <CopyLocal>False</CopyLocal>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>H:\Programs\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <CopyLocal>False</CopyLocal>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>H:\Programs\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <CopyLocal>False</CopyLocal>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Update="System">
+      <CopyLocal>False</CopyLocal>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Update="System.Core">
+      <CopyLocal>False</CopyLocal>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Update="System.Data">
+      <CopyLocal>False</CopyLocal>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Update="System.Drawing">
+      <CopyLocal>False</CopyLocal>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Update="System.IO.Compression.FileSystem">
+      <CopyLocal>False</CopyLocal>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Update="System.Numerics">
+      <CopyLocal>False</CopyLocal>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Update="System.Runtime.Serialization">
+      <CopyLocal>False</CopyLocal>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Update="System.Xml">
+      <CopyLocal>False</CopyLocal>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Update="System.Xml.Linq">
+      <CopyLocal>False</CopyLocal>
+    </Reference>
+  </ItemGroup>
+
+</Project>
